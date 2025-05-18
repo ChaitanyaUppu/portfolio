@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chaitanya Uppu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="scanlines"></div>
+    <div class="loading-content">
+      <div class="loading-logo">
+        <div class="logo-icon">TVA</div>
+        <h1>TIME VARIANCE AUTHORITY</h1>
+      </div>
+      <div class="loading-box">
+        <div class="loading-header">
+          <div class="loading-title">SYSTEM BOOT</div>
+          <div class="loading-subtitle">
+            <span class="clock-icon">⏱</span>
+            Temporal OS v4.23.2
+          </div>
+        </div>
+        <div class="loading-status">
+          <div class="loading-text" id="loading-text">Initializing temporal interface</div>
+        </div>
+      </div>
+      <div class="loading-warning">
+        <span class="terminal-font">WARNING:</span> Unauthorized access to TVA systems is a violation of the Sacred
+        Timeline and will result in pruning.<br>this is an portfolio inspired by the tva from the series loki.
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" class="hidden">
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="container">
+        <div class="logo-container">
+          <div class="logo-icon">C</div>
+          <div>
+            <h1 class="logo-title">CHAITANYA SAI UPPU</h1>
+            <div class="time-display" id="time-display"></div>
+          </div>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#home" class="nav-link active">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#education" class="nav-link">EDUCATION</a></li>
+            <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+        <button id="mobile-menu-btn" class="mobile-menu-btn">☰</button>
+      </div>
+      <div id="mobile-nav" class="mobile-nav hidden">
+        <ul>
+          <li><a href="#home" class="nav-link">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#education" class="nav-link">EDUCATION</a></li>
+          <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="tva-box">
+            <div class="box-header">
+              <span class="terminal-icon">></span>
+              <h2>// TVA PERSONNEL FILE</h2>
+            </div>
+            <div class="typing-text" id="typing-text-1"></div>
+            <div class="typing-text success" id="typing-text-2"></div>
+            <div class="hero-main">
+              <h1 id="typing-text-3"></h1>
+              <h2 id="typing-text-4"></h2>
+              <p id="typing-text-5"></p>
+            </div>
+            <div class="hero-buttons">
+              <a href="#about" class="btn-tva">VIEW PROFILE</a>
+              <a href="https://leetcode.com/u/chaitanya_327/" target="_blank" class="btn-tva">LEETCODE PROFILE</a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-down">
+          <a href="#about">↓</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">👤</span>
+          <h2>ABOUT</h2>
+        </div>
+        <div class="grid-container">
+          <div class="main-content">
+            <div class="tva-box">
+              <div class="box-header">
+                <span class="terminal-icon">></span>
+                <h3>// VARIANT PROFILE</h3>
+              </div>
+              <p>I’m a UI/UX designer and frontend developer with a passion for crafting seamless user experiences and building clean, responsive interfaces.</p>
+              <p>My mission is to design intuitive digital products that not only look great but also function flawlessly. I strive for simplicity, accessibility, and performance in every project I take on.
+</p>
+              <p>When I’m not designing wireframes or coding interactive interfaces, I’m exploring design trends, refining my skills, and contributing to web development communities.
+</p>
+              <div class="objectives">
+                <h4 class="terminal-font">PRIMARY OBJECTIVES:</h4>
+                <ul>
+                  <li>Design user-centered interfaces with clean, modern aesthetics</li>
+                  <li>Develop responsive, accessible, and maintainable frontend applications</li>
+                  <li>Collaborate closely with developers and stakeholders to bring ideas to life</li>
+                  <li>Continuously learn and adapt to new tools, technologies, and best practices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="tva-box">
+              <div class="box-header">
+                <span class="terminal-icon">></span>
+                <h3>// TECH STACK</h3>
+              </div>
+              <div class="tech-stack">
+                <div>
+                  <h4>LANGUAGES</h4>
+                  <p>JavaScript, Python, Java, C++</p>
+                </div>
+                <div>
+                  <h4>FRONTEND</h4>
+                  <p>React, Figma, Next.js, Tailwind CSS</p>
+                </div>
+                <div>
+                  <h4>BACKEND</h4>
+                  <p>Node.js, Express, Django</p>
+                </div>
+                <div>
+                  <h4>DATABASES</h4>
+                  <p>MongoDB, PostgreSQL, MySQL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🎓</span>
+          <h2>EDUCATION</h2>
+        </div>
+        <div class="tva-box">
+          <div class="box-header">
+            <span class="terminal-icon">📅</span>
+            <h3>//  EDUCATION RECORDS</h3>
+          </div>
+          <p class="subtitle">Chronological sequence of academic timeline branches</p>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2023 - present</div>
+              <div class="timeline-content">
+                <h3>B.Tech </h3>
+                <p class="location">Gayathri Vidhya Parishad college of Engineering</p>
+                <p>Major in Information Technology</p>
+                <button class="toggle-details">Show Details</button>
+                <div class="details hidden">
+                  <div class="courses">
+                    <h4>Key Courses:</h4>
+                    <ul>
+                      <li>Data Structures and Algorithms</li>
+                      <li>Operating Systems</li>
+                      <li>Computer Networks</li>
+                      <li>Database Systems</li>
+                      <li>Theory Of Computation</li>
+                    </ul>
+                  </div>
+                  <!--<div class="achievements">
+                    <h4>Achievements:</h4>
+                    <ul>
+                      <li>Dean's List all semesters</li>
+                      <li>1st place in University Hackathon 2023</li>
+                      <li>Published research paper on algorithm optimization</li>
+                    </ul>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2021 - 2023</div>
+              <div class="timeline-content">
+                <h3>Intermediate</h3>
+                <p class="location">Narayana Jr.College</p>
+                <p>Foundation courses in Maths, Physics, Chemistery.</p>
+                <button class="toggle-details">Show Details</button>
+                <div class="details hidden">
+                  <div class="courses">
+                    <h4>Key Courses:</h4>
+                    <ul>
+                      <li>Maths</li>
+                      <li>Physics</li>
+                      <li>Chemistery</li>
+                    </ul>
+                  </div>
+                  <div class="achievements">
+                    <h4>Achievements:</h4>
+                    <ul>
+                      <li>JEE ADV->CRL Rank:21047 OBC-NCL Rank:5442</li>
+                      <li>JEE MAIN: 93%</li>
+                      <li>BOARD: 96.7%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2020 - 2021</div>
+              <div class="timeline-content">
+                <h3>secondary </h3>
+                <p class="location">Narayana e-techno school
+                
+                </p>
+                <button class="toggle-details">Show Details</button>
+                <div class="details hidden">
+                  <!--<div class="courses">
+                    <h4>Key Courses:</h4>
+                    <ul>
+                      <li>JavaScript Fundamentals</li>
+                      <li>React & Redux</li>
+                      <li>Node.js Backend Development</li>
+                      <li>Database Design</li>
+                    </ul>
+                  </div>
+                  <div class="achievements">
+                    <h4>Achievements:</h4>
+                    <ul>
+                      <li>Developed 5 full-stack applications</li>
+                      <li>Received Outstanding Student Award</li>
+                      <li>Mentored junior developers</li>
+                    </ul>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="certifications">
+            <div class="box-header">
+              <span class="terminal-icon">📍</span>
+              <h3>// ADDITIONAL CERTIFICATIONS</h3>
+            </div>
+            <div class="cert-grid">
+              <div class="cert-item">
+                <h4>AWS Certified Solutions Architect</h4>
+                <p class="cert-meta">Amazon Web Services, 2023</p>
+              </div>
+              <div class="cert-item">
+                <h4>TensorFlow Developer Certificate</h4>
+                <p class="cert-meta">Google, 2022</p>
+              </div>
+              <div class="cert-item">
+                <h4>Oracle Certified Java Programmer</h4>
+                <p class="cert-meta">Oracle, 2021</p>
+              </div>
+              <div class="cert-item">
+                <h4>Certified Ethical Hacker</h4>
+                <p class="cert-meta">EC-Council, 2022</p>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">📁</span>
+          <h2>PROJECTS</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/spaceimpact.png"
+                alt="Temporal Algorithm Visualizer">
+              <div class="project-status sacred">DEPLOYED</div>
+            </div>
+            <div class="project-content">
+              <h3>Space Impact</h3>
+              <p>Space Impact is a classic Nokia arcade game where players battle enemies in space.</p>
+              <button class="toggle-details">Show Details</button>
+              <div class="project-details hidden">
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                  
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ChaitanyaUppu/spaceimpact" target="_blank"
+                  class="github-link">GitHub</a>
+                <a href="https://spaceimpact.onrender.com" target="_blank" class="live-link">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/bookswap.png"
+                alt="Temporal Algorithm Visualizer">
+              <div class="project-status sacred">NOT DEPLOYED</div>
+            </div>
+            <div class="project-content">
+              <h3>BOOKSWAP</h3>
+              <p>A simple and engaging platform for readers to swap books, share collections, and connect with fellow book lovers.</p>
+              <button class="toggle-details">Show Details</button>
+              <div class="project-details hidden">
+                <div class="project-tags">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                  
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ChaitanyaUppu/spaceimpact" target="_blank"
+                  class="github-link">GitHub</a>
+               
+              </div>
+            </div>
+          
+            </div>
+        </div>
+        
+        </div>
+        <div class="github-link-container">
+          <a href="https://github.com/ChaitanyaUppu" target="_blank" class="btn-tva">VIEW MORE ON GITHUB</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">⚙️</span>
+          <h2>SKILLS</h2>
+        </div>
+        <div class="tva-box">
+          <div class="box-header">
+            <span class="terminal-icon">🛡️</span>
+            <h3>// TECHNICAL CAPABILITIES</h3>
+          </div>
+          <p class="subtitle">Skills assessment based on technical evaluation metrics</p>
+
+          <div class="skills-grid">
+            <div class="skill-category">
+              <div class="category-header">
+                <span class="category-icon">💻</span>
+                <h3>Programming Languages</h3>
+              </div>
+              <ul class="skill-list">
+                <li>C++ <span class="skill-level"></span></li>
+                <li>Python <span class="skill-level"></span></li>
+                <li>JavaScript <span class="skill-level"></span></li>
+                <li>Java <span class="skill-level"></span></li>
+                
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <div class="category-header">
+                <span class="category-icon">🌐</span>
+                <h3>Frontend Development</h3>
+              </div>
+              <ul class="skill-list">
+                <li>React <span class="skill-level"></span></li>
+                <li>HTML/CSS <span class="skill-level"></span></li>
+                <li>Figma <span class="skill-level"></span></li>
+                <li>Adobe  <span class="skill-level"></span></li>
+                <li>Tailwind CSS <span class="skill-level"></span></li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <div class="category-header">
+                <span class="category-icon">🗄️</span>
+                <h3>Databases & Backend</h3>
+              </div>
+              <ul class="skill-list">
+                <li>MongoDB <span class="skill-level"></span></li>
+                <li>Node.js <span class="skill-level"></span></li>
+                <li>Express.js <span class="skill-level"></span></li>
+                <li>MY SQL <span class="skill-level"></span></li>
+                <li>Django <span class="skill-level"></span></li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <div class="category-header">
+                <span class="category-icon">💡</span>
+                <h3>Software Engineering</h3>
+              </div>
+              <ul class="skill-list">
+                <li>Data Structures <span class="skill-level"></span></li>
+                <li>Algorithms <span class="skill-level"></span></li>
+                <li>System Design <span class="skill-level"></span></li>
+                <li>Design Patterns <span class="skill-level"></span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--<div class="leetcode-stats">
+            <div class="box-header">
+              <span class="terminal-icon">></span>
+              <h3>// LEETCODE STATISTICS</h3>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number">42</div>
+                <div class="stat-label">Problems Solved</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">75%</div>
+                <div class="stat-label">Success Rate</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">Top 5%</div>
+                <div class="stat-label">Global Ranking</div>
+              </div>
+            </div>
+            <div class="leetcode-link">
+              <a href="https://leetcode.com/yourusername" target="_blank" class="btn-tva">VIEW LEETCODE PROFILE</a>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">✉️</span>
+          <h2>CONTACT</h2>
+        </div>
+        <div class="grid-container">
+          <div class="contact-form">
+            <div class="tva-box">
+              <div class="box-header">
+                <span class="terminal-icon">✉️</span>
+                <h3>// COMMUNICATION TERMINAL</h3>
+              </div>
+              <form id="contact-form">
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="name">NAME <span class="required">*</span></label>
+                    <input type="text" style="color: white;" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">EMAIL <span class="required">*</span></label>
+                    <input type="email" style="color: white;" id="email" name="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">SUBJECT <span class="required">*</span></label>
+                  <input type="text" style="color: white;" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">MESSAGE <span class="required">*</span></label>
+                  <textarea id="message" style="color: white;" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn-tva" id="submit-btn">
+                  SEND MESSAGE
+                </button>
+                <div id="form-status"></div>
+              </form>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="tva-box">
+              <div class="box-header">
+                <span class="terminal-icon">⏱</span>
+                <h3>// CONTACT INFORMATION</h3>
+              </div>
+              <div class="info-grid">
+                <div class="info-item">
+                  <h4>EMAIL</h4>
+                  <p>chaitanyasai327@gmail.com</p>
+                </div>
+                <div class="info-item">
+                  <h4>LOCATION</h4>
+                  <p>Visakhapatnam , Andhra Pradesh.</p>
+                </div>
+                <div class="info-item">
+                  <h4>SOCIAL PROFILES</h4>
+                  <div class="social-links">
+                    <a href="https://github.com/ChaitanyaUppu" target="_blank">GitHub |</a>
+                    <a href="https://www.linkedin.com/in/chaitanya-sai-uppu-4b5b98290/" target="_blank"> LinkedIn |</a>
+                    <a href="https://www.instagram.com/chaitanya.067/?locale=es_ES&hl=en" target="_blank"> Instagram</a>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <h4>AVAILABILITY</h4>
+                  <p>Available for internships, and full-time positions.</p>
+                </div>
+                <div class="footer-note">
+                  <div class="terminal-font">FOR ALL TIME, ALWAYS</div>
+                  <div class="copyright">&copy; <span id="current-year"></span> | Chaitanya</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="logo-icon">C</div>
+            <div>
+              <h2>CHAITANYA SAI UPPU</h2>
+              <p>UI UX Designer | Frontend Developer</p>
+            </div>
+          </div>
+          <div class="footer-links">
+            <a href="https://leetcode.com/u/chaitanya_327/" target="_blank">LeetCode</a>
+            <a href="https://github.com/ChaitanyaUppu" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/chaitanya-sai-uppu-4b5b98290/" target="_blank">LinkedIn</a>
+            <a href="mailto:chaitanyasai327@gmail.com">Email</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            <span>&copy;</span>
+            <span id="footer-year"></span> CHAITANYA . All temporal variants reserved.
+          </p>
+          <p>
+            <span>⏱</span>
+            For All Time. Always.
+            <span>|</span>
+            <a href="/D:/tvap/index.html">Reset Timeline</a>
+          </p>
+          <p class="footer-heart">
+            Designed with ❤️ in the Sacred Timeline
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("jrEs13c8SRVhnHozM"); // Replace with your actual Public Key
+  })();
+</script>
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Optional: display loading state
+    const status = document.getElementById("form-status");
+    status.innerText = "Sending...";
+
+    // Send form data using EmailJS
+    emailjs.sendForm("service_h3pziy5", "template_tpieijj", this)
+      .then(function(response) {
+        console.log("SUCCESS!", response.status, response.text);
+        status.innerText = "Message sent successfully! ✅";
+        document.getElementById("contact-form").reset();
+      }, function(error) {
+        console.log("FAILED...", error);
+        status.innerText = "Oops! Something went wrong. ❌";
+      });
+  });
+</script>
+
+
+</body>
+
+</html>
